@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
   def index
+    @category = params[:pattern]
   end
 
   def show
